@@ -1,0 +1,2 @@
+class Whale < ApplicationRecord
+end

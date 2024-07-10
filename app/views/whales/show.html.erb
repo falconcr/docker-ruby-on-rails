@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @whale %>
+
+<div>
+  <%= link_to "Edit this whale", edit_whale_path(@whale) %> |
+  <%= link_to "Back to whales", whales_path %>
+
+  <%= button_to "Destroy this whale", @whale, method: :delete %>
+</div>
